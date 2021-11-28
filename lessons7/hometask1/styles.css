@@ -1,8 +1,7 @@
 input:checked {
   margin-left: 50px;
 }
-label:hover,
-input:hover {
+label {
   text-transform: uppercase;
 }
 
