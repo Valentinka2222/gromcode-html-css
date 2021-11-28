@@ -1,0 +1,20 @@
+li {
+  margin-bottom: 16px;
+}
+li:first-child > span {
+  background-color: red;
+  color: white;
+}
+li:last-child > span {
+  background-color: black;
+  color: white;
+}
+li:nth-child(even) {
+  margin-left: 16px;
+}
+div.paragraphs > p:nth-child(1) {
+  background-color: grey;
+}
+div.paragraphs > p:nth-last-child(2) {
+  background-color: grey;
+}
