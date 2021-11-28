@@ -31,7 +31,7 @@ input[type='text'] {
 div:nth-last-child(3) > p {
   background-color: yellow;
 }
-p:nth-last-child(1) {
+div:nth-child(5) > p:last-child {
   border: 5px solid white;
 }
 p > em {
