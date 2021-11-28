@@ -4,10 +4,9 @@ input:checked {
 label:hover {
   text-transform: uppercase;
 }
-input:enabled {
+input:hover {
   text-transform: uppercase;
 }
-
 #special::first-letter {
   color: green;
   font-size: 100px;
