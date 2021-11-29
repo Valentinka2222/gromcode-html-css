@@ -3,7 +3,7 @@
   height: 40px;
   position: fixed;
   width: 100%;
-  margin-top: 0;
+  position: relative;
 }
 .nav {
   height: 40px;
@@ -14,8 +14,9 @@
   color: white;
   margin-left: 16px;
   display: inline-block;
-  line-height: 0px;
-  position: relative;
+  line-height: 40px;
+
+  top: 5px;
 }
 .content {
   background-color: beige;
@@ -24,8 +25,8 @@
 .head {
   height: 200px;
   width: 200px;
-  margin-top: calc(40% - 200px);
-  margin-left: calc(60% - 200px);
+  margin-top: calc(50% - 100px);
+  margin-left: calc(50% - 100px);
   position: absolute;
   background-color: aquamarine;
 }
