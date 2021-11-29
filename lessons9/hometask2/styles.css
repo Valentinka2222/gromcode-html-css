@@ -11,7 +11,7 @@
 }
 .nav-item {
   color: white;
-  margin-left: 16px;
+  margin-inline-end: 16px;
   display: inline-block;
   line-height: 40px;
 }
