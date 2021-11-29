@@ -1,8 +1,23 @@
-div {
-  width: auto;
-  height: auto;
-  padding: 20px;
-  border: 3px solid black;
-  padding: 50px;
-  background-color: aqua;
+.rectangle {
+  width: 100px;
+  height: 50px;
+  margin: 50px;
+  border-radius: 15px;
+  background-color: forestgreen;
+}
+.oval {
+  border-radius: 50%;
+  background-color: darkmagenta;
+}
+.circle {
+  background-color: aquamarine;
+  height: 100px;
+  border-radius: 50%;
+}
+.triangle {
+  border: 50px solid transparent;
+  border-top-color: brown;
+  width: 0px;
+  height: 0px;
+  margin: 50px;
 }
