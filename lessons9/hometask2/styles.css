@@ -4,6 +4,7 @@
   position: fixed;
   width: 100%;
   position: relative;
+  z-index: 101;
 }
 .nav {
   height: 40px;
@@ -21,10 +22,11 @@
 .head {
   height: 200px;
   width: 200px;
-  margin-top: calc(50% - 100px);
-  margin-left: calc(50% - 100px);
+  margin-top: calc(50% - 200px);
+  margin-left: calc(50% - 200px);
   position: absolute;
   background-color: aquamarine;
+  z-index: 101;
 }
 .ear {
   height: 60px;
