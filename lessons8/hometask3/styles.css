@@ -1,0 +1,19 @@
+div {
+  width: auto;
+
+  margin: 50px;
+  border: 2px solid black;
+}
+.div1 {
+  background-color: blue;
+}
+.div2 {
+  background-color: yellow;
+}
+.div3 {
+  background-color: green;
+}
+.div4 {
+  height: 100px;
+  background-color: pink;
+}
