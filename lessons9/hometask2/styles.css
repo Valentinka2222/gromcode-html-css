@@ -4,6 +4,7 @@
   position: fixed;
   width: 100%;
   position: relative;
+  z-index: -5;
 }
 .nav {
   height: 40px;
@@ -12,11 +13,9 @@
 }
 .nav-item {
   color: white;
-  margin-left: 16px;
+  margin-inline: 16px;
   display: inline-block;
   line-height: 40px;
-
-  top: 5px;
 }
 .content {
   background-color: beige;
@@ -29,6 +28,7 @@
   margin-left: calc(50% - 100px);
   position: absolute;
   background-color: aquamarine;
+  z-index: 5;
 }
 .ear {
   height: 60px;
