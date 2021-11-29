@@ -3,20 +3,19 @@
   height: 40px;
   position: fixed;
   width: 100%;
-
+  position: relative;
   z-index: 2;
 }
 .nav {
   height: 40px;
 }
 .nav-item {
-  line-height: 10px;
-
   color: white;
   margin-left: 16px;
   display: inline-block;
-  float: left;
+  line-height: 40px;
 }
+
 .content {
   background-color: beige;
   height: 5000px;
