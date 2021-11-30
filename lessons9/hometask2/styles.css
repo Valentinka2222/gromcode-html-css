@@ -1,5 +1,4 @@
 .header,
-.nav-list,
 .navigation {
   margin: 0;
   background-color: darkturquoise;
@@ -8,13 +7,14 @@
   width: 100%;
   z-index: 10;
 }
-
+.nav-list {
+  list-style-type: none;
+  height: 40px;
+}
 .nav-item {
   color: white;
   margin-left: 16px;
-  display: inline-block;
-
-  line-height: 40px;
+  float: left;
 }
 
 .content {
