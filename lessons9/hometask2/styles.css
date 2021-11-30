@@ -1,19 +1,19 @@
-.header {
+.header,
+.nav-list,
+.navigation {
+  margin-top: 0;
   background-color: darkturquoise;
   height: 40px;
   position: fixed;
   width: 100%;
-  position: relative;
-  z-index: 2;
-  clear: both;
+  z-index: 10;
 }
-.nav {
-  height: 40px;
-}
+
 .nav-item {
   color: white;
   margin-left: 16px;
   display: inline-block;
+
   line-height: 40px;
 }
 
