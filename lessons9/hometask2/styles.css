@@ -10,9 +10,10 @@
   height: 40px;
 }
 .nav-item {
+  box-sizing: border-box;
   color: white;
   margin-left: 16px;
-  display: inline;
+  display: inline-block;
   line-height: 40px;
 }
 
