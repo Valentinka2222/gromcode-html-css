@@ -10,6 +10,7 @@
   height: 40px;
 }
 .nav-item {
+  box-sizing: content-box;
   color: white;
   margin-left: 16px;
   display: inline-block;
