@@ -1,16 +1,15 @@
 .header,
-.navigation {
+.navigation,
+.nav-list {
   margin: 0;
   background-color: darkturquoise;
   height: 40px;
   position: fixed;
   width: 100%;
   z-index: 10;
-}
-.nav-list {
   list-style-type: none;
-  height: 40px;
 }
+
 .nav-item {
   color: white;
   margin-left: 16px;
