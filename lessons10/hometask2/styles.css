@@ -2,6 +2,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 header {
   margin: auto;
 }
@@ -9,7 +13,7 @@ header {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  min-height: 300px;
-  flex-basis: 100px;
-  flex-wrap: wrap;
+
+  flex-basis: 300px;
+  flex-grow: 1;
 }
