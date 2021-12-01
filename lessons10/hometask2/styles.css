@@ -5,6 +5,7 @@ body {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
 }
 header {
   margin: auto;
@@ -16,4 +17,7 @@ header {
 
   flex-basis: 300px;
   flex-grow: 1;
+}
+* {
+  box-sizing: border-box;
 }
