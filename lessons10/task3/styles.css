@@ -42,9 +42,9 @@
 .navigation_item {
   margin-right: 16px;
 }
-.navigation_itemNews {
+/*.navigation_itemNews {
   margin-left: 16px;
-}
+}*/
 
 .sidebar {
   background-color: grey;
@@ -61,7 +61,7 @@
 .h2_text {
   display: flex;
   justify-content: center;
-  margin-top: 16px;
+  margin: 16px 0;
 }
 
 .footer {
