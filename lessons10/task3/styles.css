@@ -56,14 +56,15 @@
   margin: 0;
 
   padding: 0;
-  line-height: 40px;
 }
 .h2_text {
   display: flex;
   justify-content: center;
   margin: 16px 0;
 }
-
+.navigation_itemNews {
+  line-height: 40px;
+}
 .footer {
   display: flex;
 
