@@ -1,10 +1,9 @@
 section {
   margin: 32px;
-  font-family: 'Roboto  Mono', sans-serif;
+
   font-size: 18px;
 }
 h1 {
-  font-family: Roboto;
   word-spacing: 20px;
   text-align: center;
   text-transform: uppercase;
@@ -24,4 +23,7 @@ a {
 }
 .translation {
   color: grey;
+}
+html {
+  font-family: Roboto, sans-serif;
 }
