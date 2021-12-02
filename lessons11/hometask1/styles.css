@@ -1,11 +1,8 @@
 .text {
   width: max-content;
+  border-bottom: 1px dotted black;
 }
-.hover_me {
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  text-decoration-color: black;
-}
+
 div .tooltip {
   display: none;
   background-color: grey;
@@ -13,6 +10,7 @@ div .tooltip {
   border-radius: 4px;
   padding: 8px;
   bottom: -40px;
+  position: absolute;
 }
 
 div:hover .tooltip {
@@ -22,6 +20,7 @@ div {
   margin: 16px;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 * {
   box-sizing: border-box;
