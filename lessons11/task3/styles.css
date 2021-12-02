@@ -1,9 +1,8 @@
 .menu-button {
-  opacity: 0.8;
   font-size: 16px;
   color: white;
 }
-.dropdown:hover .menu-button {
+.dropdown:hover {
   opacity: 1;
 }
 .menu-list:hover {
@@ -11,7 +10,7 @@
 }
 .menu-list {
   background-color: lightcyan;
-
+  right: -25px;
   top: 50px;
   position: absolute;
   padding: 0;
@@ -30,6 +29,7 @@
 }
 
 .dropdown {
+  opacity: 0.8;
   position: relative;
   height: 50px;
   display: inline-block;
