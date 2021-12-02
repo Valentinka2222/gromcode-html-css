@@ -1,0 +1,28 @@
+.text {
+  width: max-content;
+}
+.hover_me {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: black;
+}
+div .tooltip {
+  display: none;
+  background-color: grey;
+  color: white;
+  border-radius: 4px;
+  padding: 8px;
+  bottom: -40px;
+}
+
+div:hover .tooltip {
+  display: block;
+}
+div {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+}
+* {
+  box-sizing: border-box;
+}
