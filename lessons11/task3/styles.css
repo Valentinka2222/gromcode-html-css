@@ -10,12 +10,12 @@
 }
 .menu-list {
   background-color: lightcyan;
-
+  left: 0px;
   top: 50px;
   position: absolute;
   padding: 0;
   min-width: 120px;
-  margin: 0cm;
+  margin: 0px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   display: none;
   z-index: 1;
@@ -29,14 +29,19 @@
 }
 
 .dropdown {
+  box-sizing: border-box;
+  padding: 16px;
   opacity: 0.8;
-  position: relative;
+
   height: 50px;
   display: inline-block;
   margin: 16px;
   color: black;
-  padding: 16px;
+
   background-color: darkgreen;
+}
+div {
+  position: relative;
 }
 * {
   box-sizing: border-box;
