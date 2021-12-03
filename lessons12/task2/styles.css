@@ -1,0 +1,19 @@
+html {
+  font-family: Verdana;
+}
+div {
+  height: 200px;
+  background-color: coral;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 200px;
+}
+h1 {
+  text-align: center;
+  white-space: nowrap;
+  font-size: 74px;
+  min-width: 50vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
