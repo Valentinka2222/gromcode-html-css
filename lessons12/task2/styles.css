@@ -8,12 +8,17 @@ div {
   text-transform: uppercase;
   text-align: center;
   line-height: 200px;
+  box-sizing: border-box;
 }
 h1 {
-  text-align: center;
   white-space: nowrap;
   font-size: 74px;
-  min-width: 50vw;
+
   overflow: hidden;
   text-overflow: ellipsis;
+}
+header {
+  margin: auto;
+  text-align: center;
+  width: 50vw;
 }
