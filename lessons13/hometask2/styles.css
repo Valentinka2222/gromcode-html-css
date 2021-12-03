@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  background-color: black;
+}
+.image {
+  padding: 50px;
+  margin: 0 auto;
+  height: 1178px;
+  width: 938px;
+  background-position: center;
+
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/background.jpg);
+}
