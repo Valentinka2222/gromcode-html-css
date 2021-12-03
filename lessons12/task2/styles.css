@@ -2,22 +2,24 @@ html {
   font-family: Verdana;
 }
 div {
+  margin: 0;
   height: 200px;
   background-color: coral;
   color: white;
   text-transform: uppercase;
   text-align: center;
   line-height: 200px;
-  box-sizing: border-box;
 }
 h1 {
   white-space: nowrap;
   font-size: 74px;
-
+  margin: auto;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 header {
+  margin: 0;
+  box-sizing: border-box;
   margin: auto;
   text-align: center;
   width: 50vw;
