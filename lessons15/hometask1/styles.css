@@ -1,15 +1,14 @@
 img {
   max-width: 100%;
   height: auto;
-  max-height: 100%;
 }
 
 .image-container {
+  width: 90%;
+  max-width: 500px;
+  min-height: 333px;
+  padding: 25px;
   position: relative;
-  width: 500px;
-  height: 333px;
-  overflow: hidden;
-  margin: 0 auto;
 }
 
 * {
