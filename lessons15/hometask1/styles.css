@@ -34,8 +34,9 @@
   opacity: 0.5;
 }
 .image {
-  max-width: 500px;
-  max-height: 333px;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
 
   position: absolute;
 }
