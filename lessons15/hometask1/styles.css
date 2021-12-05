@@ -12,10 +12,6 @@ img {
   position: relative;
 }
 
-* {
-  box-sizing: content-box;
-}
-
 .image-button {
   left: calc(50% - 100px);
   top: calc(50% - 25px);
