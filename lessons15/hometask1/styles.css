@@ -1,12 +1,11 @@
 .image-container {
   margin: 0 auto;
   position: relative;
-  display: block;
+
   justify-content: center;
   cursor: pointer;
   width: 500px;
   height: 333px;
-  flex-shrink: 1;
 }
 .image-button:hover {
   display: block;
@@ -32,10 +31,8 @@
 }
 .image {
   max-width: 100%;
-  height: auto;
-
+  width: 500px;
+  height: 333px;
+  display: block;
   position: absolute;
-}
-* {
-  box-sizing: border-box;
 }
