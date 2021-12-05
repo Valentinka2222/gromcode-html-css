@@ -4,10 +4,10 @@ img {
 }
 
 .image-container {
-  width: 100%;
   max-width: 500px;
-  min-height: 333px;
+
   margin: 0 auto;
+  display: flex;
 
   position: relative;
 }
