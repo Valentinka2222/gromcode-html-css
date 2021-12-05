@@ -5,6 +5,7 @@ img {
 
 .image-container {
   max-width: 500px;
+  padding: 0px 10px;
 
   margin: 0 auto;
   display: flex;
