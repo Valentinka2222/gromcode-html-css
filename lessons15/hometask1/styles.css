@@ -4,10 +4,11 @@ img {
 }
 
 .image-container {
-  width: 90%;
+  width: 100%;
   max-width: 500px;
   min-height: 333px;
-  padding: 25px;
+  margin: 0 auto;
+
   position: relative;
 }
 
