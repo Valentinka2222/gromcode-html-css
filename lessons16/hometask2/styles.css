@@ -1,0 +1,11 @@
+.login-form {
+  margin: 32px;
+}
+.form-control,
+textarea,
+.languages {
+  margin: 8px;
+}
+* {
+  box-sizing: border-box;
+}
