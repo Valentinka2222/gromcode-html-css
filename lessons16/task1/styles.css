@@ -6,17 +6,16 @@ div {
 }
 #agree-form-control {
   position: absolute;
-  top: 3px;
+  top: 2px;
   left: 0;
-  padding-right: 5px;
 }
 .checkbox {
   position: relative;
   display: inline-block;
-  padding-left: 10px;
+  padding-left: 2px;
 }
 .checkmark {
-  margin-left: 5px;
+  margin-left: 15px;
 }
 .gender {
   margin-left: 5px;
