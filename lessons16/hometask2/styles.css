@@ -10,22 +10,13 @@
 }
 .languages {
   margin-top: 5px;
+  display: flex;
 }
 input[type='radio'] {
   padding-left: 3px;
-  float: left;
 }
 
 textarea {
   margin-left: 8px;
   width: 260px;
-}
-div > input + option[value='html'] {
-  padding-left: 5px;
-  float: left;
-}
-
-div > input + option[value='css'] {
-  padding-left: 5px;
-  float: left;
 }
