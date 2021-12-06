@@ -1,12 +1,12 @@
 img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .image-container {
-  max-width: 500px;
-  max-height: 333px;
+  width: 500px;
+  height: auto;
+  display: flex;
 
   position: relative;
 }
@@ -35,6 +35,7 @@ img {
 body {
   display: flex;
   justify-content: center;
+  margin: auto;
 
   height: 100%;
   width: 100%;
