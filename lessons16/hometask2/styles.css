@@ -10,9 +10,10 @@
 }
 .languages {
   display: flex;
+  margin-top: 5px;
 }
 input[type='radio'] {
-  padding-left: 2px;
+  padding-left: 3px;
 }
 textarea {
   margin-left: 8px;
