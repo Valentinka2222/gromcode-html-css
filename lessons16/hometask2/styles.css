@@ -16,5 +16,9 @@ textarea {
   width: 261px;
 }
 input[type='radio'] {
-  margin: 1px;
+  margin-left: 3px;
+}
+
+div > option {
+  margin-left: 2px;
 }
