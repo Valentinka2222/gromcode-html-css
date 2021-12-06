@@ -9,15 +9,18 @@
   box-sizing: border-box;
 }
 .languages {
-  display: flex;
 }
 input[type='radio'] {
   margin: 2px;
+  float: left;
 }
-option [value='html'] {
-  padding-left: 20px;
+option[value='css'] {
+  float: left;
+}
+option[value='html'] {
+  float: left;
 }
 textarea {
   margin-left: 8px;
-  width: 259px;
+  width: 261px;
 }
