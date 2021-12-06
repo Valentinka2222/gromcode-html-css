@@ -10,7 +10,6 @@
 }
 .languages {
   display: flex;
-  padding: 2px;
 }
 textarea {
   margin-left: 8px;
