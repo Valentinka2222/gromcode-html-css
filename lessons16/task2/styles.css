@@ -1,0 +1,8 @@
+.checkbox {
+  position: relative;
+  display: inline-block;
+  padding-left: 2px;
+}
+div {
+  margin: 16px;
+}
