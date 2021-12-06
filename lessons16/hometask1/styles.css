@@ -26,7 +26,6 @@ body {
   text-align: center;
 }
 .form-input {
-  margin-bottom: 8px;
   width: 100%;
   height: 32px;
   border-radius: 4px;
@@ -39,6 +38,7 @@ body {
 }
 .form-control {
   width: 100%;
+  margin-bottom: 8px;
 }
 
 input:invalid {
