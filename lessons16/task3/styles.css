@@ -3,22 +3,20 @@
   padding-left: 35px;
   font-size: 24px;
   margin: 16px;
-  display: inline-block;
 }
 input[type='checkbox'] {
   visibility: hidden;
-  width: 0cm;
-  height: 0cm;
-  margin: 16px;
+  width: 0;
+  height: 0;
 }
 .checkmark {
   position: absolute;
-
+  background-color: #d3d3d3;
   top: 0;
   left: 0;
   width: 25px;
   height: 25px;
-  background-color: #d3d3d3;
+  display: inline-block;
 }
 .checkbox input:checked + .checkmark {
   background-color: #006400;
