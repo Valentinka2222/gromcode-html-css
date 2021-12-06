@@ -12,3 +12,6 @@ textarea,
 .languages {
   display: flex;
 }
+input[type='radio'] {
+  padding-left: 2px;
+}
