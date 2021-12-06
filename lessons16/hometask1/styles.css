@@ -9,7 +9,7 @@ body {
 .page {
   margin: auto;
   display: block;
-  margin-top: calc(50% / 2 - 200px);
+  margin-top: calc(100% / 2 - 200px);
   font-size: 16px;
   font-family: monospace;
 }
