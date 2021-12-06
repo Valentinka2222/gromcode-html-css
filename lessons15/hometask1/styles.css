@@ -4,8 +4,8 @@ img {
 }
 
 .image-container {
-  max-width: 500px;
-
+  max-width: 100%;
+  max-height: auto;
   margin: 0 auto;
   display: flex;
   position: relative;
@@ -36,6 +36,7 @@ img {
 }
 body {
   justify-content: center;
+  margin: auto;
 
   height: 100%;
   width: 100%;
