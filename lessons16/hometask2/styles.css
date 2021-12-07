@@ -17,3 +17,6 @@ textarea {
 input[type='radio'] > label {
   float: left;
 }
+.languages {
+  margin-left: 4px;
+}
