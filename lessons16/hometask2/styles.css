@@ -13,9 +13,9 @@ textarea {
   margin-left: 8px;
   width: 261px;
 }
-div.languages {
+/*div.languages {
   padding: 2px;
-}
+}*/
 
 input[type='radio'],
 option[value='css'],
