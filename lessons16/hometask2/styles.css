@@ -6,6 +6,7 @@ div {
   width: 100%;
   display: flex;
   margin: 8px;
+  padding: 0;
 }
 * {
   box-sizing: border-box;
@@ -15,15 +16,9 @@ textarea {
   width: 261px;
 }
 
-/*.login-form {
-  margin: 32px;
-}
-.form-control {
-  margin: 8px;
-}
-* {
-  box-sizing: border-box;
-}
+/*
+
+
 .languages {
   display: flex;
   padding: 0 2px 0 0;
