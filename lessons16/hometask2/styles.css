@@ -22,6 +22,3 @@ option[value='html'] {
 .languages {
   display: flex;
 }
-option[name='languages'] {
-  padding-bottom: 2px;
-}
