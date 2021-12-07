@@ -16,26 +16,12 @@ textarea {
   margin-left: 8px;
   width: 261px;
 }
-div.languages {
+/*div.languages {
   display: flex;
-}
-
-/*
-
-
-.languages {
-  display: flex;
-  padding: 0 2px 0 0;
-  margin-left: 8px;
-}
-
-
-option {
-  padding: 0 2px 2px 4px;
-  padding: 0 3px 2px 4px;
-  margin: 0;
-  margin-top: -2px;
-}
-input[type='radio'] {
-  margin-left: 1px;
 }*/
+
+input[type='radio'],
+option[value='css'],
+option[value='html'] {
+  float: left;
+}
