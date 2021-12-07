@@ -13,9 +13,9 @@ textarea {
   margin-left: 8px;
   width: 261px;
 }
-/*div.languages {
-  padding: 2px;
-}*/
+option {
+  padding: 0 2px;
+}
 
 .languages {
   display: flex;
