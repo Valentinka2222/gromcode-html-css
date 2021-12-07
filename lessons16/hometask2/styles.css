@@ -11,7 +11,7 @@
 .languages {
   display: flex;
 
-  padding: 0;
+  padding: 0 2px 0 0;
   margin-left: 7px;
 }
 textarea {
@@ -20,7 +20,7 @@ textarea {
 }
 
 option {
-  padding: 0;
+  padding: 0 2px 2px 2px;
   margin: 0;
 }
 input[type='radio'] {
