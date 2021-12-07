@@ -24,3 +24,6 @@ option {
   margin: 0 3px 0;
   padding-right: 2px;
 }
+input[type='radio'] {
+  margin-top: 2px;
+}
