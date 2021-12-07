@@ -1,12 +1,12 @@
 form {
   margin: 32px;
+  padding: 2px;
 }
 
 div {
   width: 100%;
   display: flex;
   margin: 8px;
-  padding: 2px;
 }
 * {
   box-sizing: border-box;
