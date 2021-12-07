@@ -1,14 +1,14 @@
 form {
   margin: 32px;
-  padding: 0;
+  padding: 0 0 2px 0;
 }
 
 div {
   width: 100%;
   display: flex;
   margin: 8px;
-  padding: 0 0 2px 0;
 }
+
 * {
   box-sizing: border-box;
 }
