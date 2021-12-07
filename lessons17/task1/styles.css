@@ -1,0 +1,17 @@
+table,
+td {
+  width: 500px;
+  margin: 16px;
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 4px;
+}
+* {
+  box-sizing: border-box;
+}
+td {
+  text-align: right;
+}
+thead {
+  font-weight: 700;
+}
