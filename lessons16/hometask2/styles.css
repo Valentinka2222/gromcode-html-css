@@ -18,6 +18,5 @@ input[type='radio'] > label {
   float: left;
 }
 .languages {
-  display: block;
   margin-left: 4px;
 }
