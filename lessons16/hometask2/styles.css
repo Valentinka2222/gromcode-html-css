@@ -11,17 +11,17 @@
 .languages {
   display: flex;
 
-  margin-left: 4px;
+  margin-left: 6px;
 }
 textarea {
   margin-left: 8px;
-  width: 260px;
+  width: 261px;
 }
 
 option {
   align-items: stretch;
-  padding-bottom: 2px;
-  margin-right: 2px;
+
+  margin-right: 3px;
 }
 select {
 }
