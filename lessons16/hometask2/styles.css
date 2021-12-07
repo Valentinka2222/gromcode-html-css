@@ -2,7 +2,7 @@
   margin: 32px;
 }
 
-input {
+.form-control {
   margin: 8px;
 }
 * {
@@ -10,18 +10,18 @@ input {
 }
 .languages {
   display: flex;
+
   margin-left: 4px;
 }
 textarea {
   margin-left: 8px;
   width: 260px;
 }
-select {
-  margin-left: 8px;
-}
-input[type='radio'] {
-  margin: 1px;
-}
+
 option {
-  margin-left: 3px;
+  align-items: stretch;
+  padding-bottom: 2px;
+  margin-right: 2px;
+}
+select {
 }
