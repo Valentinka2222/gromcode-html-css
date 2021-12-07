@@ -20,8 +20,6 @@ textarea {
 
 option {
   align-items: stretch;
-
+  padding-bottom: 2px;
   margin-right: 3px;
-}
-select {
 }
