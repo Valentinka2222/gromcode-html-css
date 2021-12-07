@@ -20,9 +20,8 @@ textarea {
 
 option {
   align-items: stretch;
-
+  padding: 0 2px 2px 2px;
   margin: 0 3px 0;
-  padding-right: 2px;
 }
 input[type='radio'] {
   margin-left: 2px;
