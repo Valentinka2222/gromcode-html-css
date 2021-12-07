@@ -12,7 +12,7 @@
   display: flex;
 
   padding: 0 2px 0 0;
-  margin-left: 8px;
+  margin-left: 7px;
 }
 textarea {
   margin-left: 8px;
@@ -20,7 +20,7 @@ textarea {
 }
 
 option {
-  padding: 0 3px 2px 2px;
+  padding: 0 3px 2px 3px;
   margin: 0;
 }
 input[type='radio'] {
