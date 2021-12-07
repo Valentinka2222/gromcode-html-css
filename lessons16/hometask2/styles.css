@@ -21,5 +21,7 @@ option[value='html'] {
 
 .languages {
   display: flex;
-  margin-bottom: -1px;
+}
+option {
+  margin: 0 2px;
 }
