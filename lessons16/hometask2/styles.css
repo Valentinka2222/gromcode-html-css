@@ -1,6 +1,5 @@
 form {
   margin: 32px;
-  padding-bottom: 2px;
 }
 
 div {
@@ -15,7 +14,9 @@ textarea {
   margin-left: 8px;
   width: 261px;
 }
-
+div.form-control {
+  padding-bottom: 2px;
+}
 /*
 
 
