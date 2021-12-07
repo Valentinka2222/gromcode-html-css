@@ -21,7 +21,5 @@ input[type='radio'],
 option[value='css'],
 option[value='html'] {
   float: left;
-}
-option {
-  padding: 0 2px;
+  margin: auto;
 }
