@@ -16,7 +16,9 @@ textarea {
   margin-left: 8px;
   width: 261px;
 }
-
+input[type='checkbox'] {
+  margin-bottom: 2px;
+}
 /*
 
 
