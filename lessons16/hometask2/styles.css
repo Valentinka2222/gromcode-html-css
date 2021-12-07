@@ -3,11 +3,16 @@ form {
 }
 
 div {
+  width: 100%;
   display: flex;
   margin: 8px;
 }
 * {
   box-sizing: border-box;
+}
+textarea {
+  margin-left: 8px;
+  width: 261px;
 }
 
 /*.login-form {
@@ -24,10 +29,7 @@ div {
   padding: 0 2px 0 0;
   margin-left: 8px;
 }
-textarea {
-  margin-left: 8px;
-  width: 261px;
-}
+
 
 option {
   padding: 0 2px 2px 4px;
