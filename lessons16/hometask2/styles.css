@@ -1,10 +1,40 @@
-.login-form {
+form {
   margin: 32px;
 }
 
 div {
+  display: flex;
   margin: 8px;
 }
 * {
   box-sizing: border-box;
 }
+
+/*.login-form {
+  margin: 32px;
+}
+.form-control {
+  margin: 8px;
+}
+* {
+  box-sizing: border-box;
+}
+.languages {
+  display: flex;
+  padding: 0 2px 0 0;
+  margin-left: 8px;
+}
+textarea {
+  margin-left: 8px;
+  width: 261px;
+}
+
+option {
+  padding: 0 2px 2px 4px;
+  padding: 0 3px 2px 4px;
+  margin: 0;
+  margin-top: -2px;
+}
+input[type='radio'] {
+  margin-left: 1px;
+}*/
