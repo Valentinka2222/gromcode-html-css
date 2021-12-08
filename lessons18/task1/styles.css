@@ -1,0 +1,44 @@
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.small_container {
+  width: 64px;
+  height: 64px;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+}
+.large_container {
+  width: 320px;
+
+  height: 320px;
+  display: flex;
+}
+.small_bird {
+  width: 64px;
+  height: 64px;
+}
+.large-bird {
+  max-height: 100%;
+  max-width: 100%;
+  width: 320px;
+
+  height: 320px;
+}
+
+* {
+  box-sizing: border-box;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
