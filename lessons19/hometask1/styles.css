@@ -20,9 +20,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.spinner-text {
-  animation: blinking 2s infinite;
-}
+
 .rect {
   position: absolute;
   width: 10px;
