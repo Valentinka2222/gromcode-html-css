@@ -1,0 +1,23 @@
+.custom-button {
+  height: 50px;
+  width: 200px;
+  vertical-align: middle;
+  background-color: coral;
+  color: white;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.custom-button:hover {
+  color: darkcyan;
+}
+.icon-bird {
+  vertical-align: middle;
+  fill: white;
+}
+.icon-bird:hover {
+  fill: green;
+}
