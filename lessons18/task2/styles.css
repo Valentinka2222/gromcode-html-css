@@ -1,6 +1,7 @@
 .custom-button {
   height: 50px;
   width: 200px;
+  margin: 64px;
 
   background-color: coral;
   color: white;
@@ -18,6 +19,7 @@
   vertical-align: middle;
   fill: white;
 }
-.icon-bird:hover {
+
+.custom-button:hover > .icon-bird {
   fill: green;
 }
