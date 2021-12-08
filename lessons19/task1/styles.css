@@ -8,8 +8,8 @@
   text-align: center;
   vertical-align: middle;
   height: 100px;
-  width: 100px;
-  transition: width 2s, opacity 5s;
+
+  transition: width 2s, opacity 0.5s;
   margin-bottom: 16px;
 }
 * {
