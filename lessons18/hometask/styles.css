@@ -13,7 +13,7 @@
 .empty {
   font-size: 256px;
 }
-div {
+body {
   display: flex;
   justify-content: space-around;
 }
