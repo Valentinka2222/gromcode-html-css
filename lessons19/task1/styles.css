@@ -9,7 +9,7 @@
   vertical-align: middle;
   height: 100px;
   width: 100px;
-  transition: width 5s, opacity 5s;
+  transition: width 2s, opacity 5s;
   margin-bottom: 16px;
 }
 * {
