@@ -19,9 +19,7 @@
   width: 100%;
   opacity: 1;
 }
-rect:nth-child(1) {
-  transition-timing-function: linear;
-}
+
 rect:nth-child(2) {
   transition-timing-function: ease;
 }
