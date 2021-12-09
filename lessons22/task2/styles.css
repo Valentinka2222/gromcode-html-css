@@ -6,7 +6,7 @@ body {
 }
 .navigation {
   display: flex;
-
+  flex-grow: 1;
   min-height: 200px;
 
   background-color: #ff7f50;
@@ -20,7 +20,7 @@ body {
 .news {
   display: flex;
   min-height: 200px;
-  flex-grow: 1;
+
   background-color: #0ff;
 }
 span {
@@ -28,7 +28,7 @@ span {
   font-size: Verdana;
   background-color: #faebd7;
   border-radius: 4px;
-
+  margin: auto;
   padding: 8px;
 }
 .product {
