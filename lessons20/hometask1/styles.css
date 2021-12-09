@@ -8,9 +8,10 @@ body {
 * {
   box-sizing: border-box;
 }
-
-.spinner {
+.container {
   animation: blinking 2s linear infinite;
+}
+.spinner {
   font-size: 16px;
   text-transform: uppercase;
   font-family: monospace;
@@ -32,7 +33,6 @@ body {
   border-radius: 50%;
   margin: auto;
 
-  animation: blinking 2s 2s linear;
   border: 4px solid lightgrey;
   border-top-color: black;
   margin-bottom: 8px;
