@@ -38,11 +38,14 @@ span {
 @media screen and (max-width: 600px) {
   .content {
     display: flex;
-    flex-grow: 2;
     flex-direction: column;
   }
   .product {
+    display: flex;
     flex-direction: column;
+  }
+  .navigation {
+    display: flex;
   }
 }
 @media screen and (min-width: 600px) {
