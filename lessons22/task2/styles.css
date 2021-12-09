@@ -51,7 +51,6 @@ body {
     width: 50%;
   }
   .product {
-    display: flex;
-    flex-grow: 2;
+    width: 100%;
   }
 }
