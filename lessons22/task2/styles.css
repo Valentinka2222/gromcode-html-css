@@ -36,10 +36,19 @@ span {
 body {
   margin: 0;
 }
+* {
+  box-sizing: border-box;
+}
 
 @media screen and (min-width: 900px) {
   .content {
     display: flex;
+  }
+  .products_list {
+    width: 50%;
+  }
+  .navigation {
+    width: 50%;
   }
   .product {
     display: flex;
