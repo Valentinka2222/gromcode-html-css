@@ -33,9 +33,16 @@ span {
     flex-grow: 2;
   }
 }
+body {
+  margin: 0;
+}
 
 @media screen and (min-width: 900px) {
   .content {
     display: flex;
+  }
+  .product {
+    display: flex;
+    flex-grow: 2;
   }
 }
