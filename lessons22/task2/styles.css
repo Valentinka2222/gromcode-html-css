@@ -11,7 +11,7 @@ body {
 
   background-color: #ff7f50;
 }
-.product_list {
+.products_list {
   display: flex;
   min-height: 200px;
   flex-grow: 1;
@@ -42,7 +42,6 @@ span {
     flex-direction: column;
   }
   .product {
-    display: flex;
     flex-direction: column;
   }
 }
@@ -54,7 +53,7 @@ span {
   .navigation {
     flex-grow: 1;
   }
-  .product_list {
+  .products_list {
     flex-grow: 1;
   }
 }
