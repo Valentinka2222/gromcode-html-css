@@ -19,6 +19,9 @@ header {
   flex: 1 0 auto;
   font-size: 1.25em;
 }
+ul {
+  line-height: 1.75em;
+}
 .footer {
   flex: 0 0 auto;
   background-color: #e5e5e5;
@@ -44,20 +47,17 @@ body {
 .nav-list {
   list-style: none;
   padding: 0;
-  line-height: 1.75em;
 }
-.units-list {
-  list-style: none;
-}
+
 .nav-list-item {
   color: white;
+  line-height: 2em;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   max-width: 100%;
   background-color: #808080;
 
-  line-height: 2em;
   margin-bottom: 0.5em;
 }
 .section {
