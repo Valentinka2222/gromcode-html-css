@@ -51,7 +51,7 @@ body {
 
 .nav-list-item {
   color: white;
-  height: 2em;
+  line-height: 2em;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
