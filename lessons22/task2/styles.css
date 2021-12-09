@@ -2,10 +2,12 @@
   display: flex;
   flex-grow: 1;
   min-height: 200px;
+  width: 50%;
 
   background-color: #ff7f50;
 }
 .products_list {
+  width: 50%;
   display: flex;
   min-height: 200px;
   flex-grow: 1;
@@ -36,21 +38,9 @@ span {
 body {
   margin: 0;
 }
-* {
-  box-sizing: border-box;
-}
 
 @media screen and (min-width: 900px) {
   .content {
     display: flex;
-  }
-  .products_list {
-    width: 50%;
-  }
-  .navigation {
-    width: 50%;
-  }
-  .product {
-    width: 100%;
   }
 }
