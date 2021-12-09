@@ -47,12 +47,11 @@ body {
 .nav-list {
   list-style: none;
   padding: 0;
-  height: 2em;
 }
 
 .nav-list-item {
   color: white;
-
+  height: 2em;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
