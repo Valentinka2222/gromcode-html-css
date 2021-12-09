@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 .navigation {
   display: flex;
   flex-grow: 1;
