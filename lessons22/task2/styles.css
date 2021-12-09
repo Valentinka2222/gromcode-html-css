@@ -32,14 +32,17 @@ span {
   margin: auto;
   padding: 8px;
 }
-
-@media screen and (min-width: 600px) {
+.product {
+  display: flex;
+  flex-grow: 1;
+}
+@media screen and (max-width: 600px) {
   .product {
     display: flex;
-    flex-grow: 2;
+    flex-direction: column;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
   .news {
     flex-grow: 0;
     display: flex;
