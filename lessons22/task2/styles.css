@@ -37,27 +37,39 @@ span {
 body {
   margin: 0;
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 899px) and (min-width: 601px) {
   .product {
+    width: 100%;
     display: flex;
+    flex-grow: 2;
+  }
+
+  .content {
+    margin: 0;
+    width: 100%;
   }
   .navigation {
-    flex-grow: 1;
+    width: 50%;
   }
   .products_list {
-    flex-grow: 1;
+    width: 50%;
   }
 }
 
 @media screen and (min-width: 900px) {
   .content {
+    width: 100%;
     display: flex;
   }
   .product {
     display: flex;
-    width: 67vw;
+    flex-grow: 2;
   }
-  .news {
-    width: 33wvw;
+
+  .navigation {
+    width: 50%;
+  }
+  .products_list {
+    width: 50%;
   }
 }
