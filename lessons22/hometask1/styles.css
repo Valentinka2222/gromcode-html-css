@@ -10,7 +10,7 @@ html {
   justify-content: center;
   cursor: pointer;
   height: 3em;
-  padding: 1em;
+  padding: 0 1em;
   background-color: #eee;
 }
 .button_menu {
@@ -29,7 +29,6 @@ i {
 }
 .navigation {
   width: 20%;
-  margin: 0;
   padding: 0.5em;
 }
 body {
@@ -46,7 +45,7 @@ ul {
   text-overflow: ellipsis;
   overflow: hidden;
 
-  margin-bottom: 0.5em;
+  margin: 0.5em;
 }
 .nav-list-link {
   color: white;
