@@ -119,9 +119,6 @@ picture {
     display: block;
     width: 100%;
   }
-  body {
-    height: 100%;
-  }
 }
 
 @media screen and (min-width: 1200px) {
