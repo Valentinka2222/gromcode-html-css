@@ -112,6 +112,7 @@ picture {
     float: left;
   }
   .news {
+    display: inline;
     width: 100%;
   }
   .main {
