@@ -103,7 +103,7 @@ picture {
     display: flex;
     flex-direction: column;
   }
-  ul {
+  .units-list {
     margin: 0;
   }
   picture {
