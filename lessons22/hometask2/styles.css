@@ -103,7 +103,9 @@ picture {
     display: flex;
     flex-direction: column;
   }
-
+  ul {
+    margin: 0;
+  }
   picture {
     width: 100%;
   }
