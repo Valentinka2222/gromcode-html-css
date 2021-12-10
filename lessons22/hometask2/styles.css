@@ -103,9 +103,7 @@ picture {
     display: flex;
     flex-direction: column;
   }
-  .units-list {
-    margin: 0;
-  }
+
   picture {
     width: 100%;
   }
@@ -114,7 +112,8 @@ picture {
     float: left;
   }
   .news {
-    display: block;
+    flex-grow: 1;
+
     width: 100%;
   }
   .main {
