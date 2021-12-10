@@ -112,11 +112,10 @@ picture {
   .navigation {
     width: 20%;
     float: left;
-    height: 87vh;
+    height: 100%;
   }
   .news {
     width: 100%;
-    float: none;
   }
   .main {
     display: block;
