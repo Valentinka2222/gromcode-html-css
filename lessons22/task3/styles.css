@@ -1,0 +1,11 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+picture {
+  max-width: 100%;
+  margin: auto;
+}
+* {
+  box-sizing: border-box;
+}
