@@ -114,7 +114,7 @@ picture {
     float: left;
   }
   .news {
-    display: inline-block;
+    display: block;
     width: 100%;
   }
   .main {
