@@ -112,12 +112,15 @@ picture {
     float: left;
   }
   .news {
-    display: inline;
+    display: block;
     width: 100%;
   }
   .main {
     display: block;
     width: 100%;
+  }
+  body {
+    height: 100%;
   }
 }
 
