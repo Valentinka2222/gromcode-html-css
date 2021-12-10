@@ -62,11 +62,11 @@ body {
     display: flex;
   }
   .product {
-    width: 66.6%;
+    width: 66.7%;
     display: flex;
   }
   .news {
-    width: 33.4%;
+    width: 33.3%;
   }
   .navigation {
     width: 50%;
