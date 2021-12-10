@@ -115,7 +115,8 @@ picture {
     height: 87%;
   }
   .news {
-    height: 5%;
+    display: block;
+
     width: 100%;
   }
   .main {
