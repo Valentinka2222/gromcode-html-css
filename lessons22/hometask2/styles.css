@@ -110,9 +110,14 @@ picture {
     width: 80%;
     display: flex;
     flex-direction: column;
+  
   }
-  ul {
-      margin: 0;}
+  body{
+      height:100vh;
+  }
+
+
+
   picture{
     
       width:100%
@@ -120,7 +125,7 @@ picture {
   .navigation {
     width: 20%;
     float: left;
- 
+    height: 87%;
   }
   .news {
     width: 100%;
