@@ -55,9 +55,9 @@ body {
   }
   .product {
     display: flex;
-    width: 66vw;
+    width: 67vw;
   }
   .news {
-    width: 34wvw;
+    width: 33wvw;
   }
 }
