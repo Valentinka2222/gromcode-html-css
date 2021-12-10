@@ -62,8 +62,8 @@ body {
     display: flex;
   }
   .product {
+    width: 66.6%;
     display: flex;
-    flex-grow: 2;
   }
 
   .navigation {
