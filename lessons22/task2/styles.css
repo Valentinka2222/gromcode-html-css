@@ -42,7 +42,10 @@ body {
     width: 100%;
     display: flex;
   }
-  .product {
-    flex-grow: 2;
+  .products_list {
+    width: 50%;
+  }
+  .navigation {
+    width: 50%;
   }
 }
