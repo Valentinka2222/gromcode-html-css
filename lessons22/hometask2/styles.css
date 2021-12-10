@@ -115,7 +115,7 @@ picture {
     height: 87%;
   }
   .news {
-    display: block;
+    display: flex;
 
     width: 100%;
   }
