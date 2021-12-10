@@ -42,6 +42,9 @@ body {
     width: 100%;
     display: flex;
   }
+  .product {
+    display: flex;
+  }
   .products_list {
     width: 50%;
   }
