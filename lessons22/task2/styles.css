@@ -51,11 +51,15 @@ body {
 
 @media screen and (min-width: 900px) {
   .content {
-    width: 100%;
     display: flex;
   }
   .product {
-    width: 64%;
     display: flex;
+  }
+  .news {
+    width: 34%;
+  }
+  .product {
+    width: 66%;
   }
 }
