@@ -39,13 +39,10 @@ body {
 
 @media screen and (min-width: 900px) {
   .content {
-    width: 100vw;
+    width: 100%;
     display: flex;
   }
   .product {
-    width: 64vw;
-  }
-  .news {
-    width: 33.3vw;
+    flex-grow: 2;
   }
 }
