@@ -99,6 +99,7 @@ picture {
 }
 @media screen and (min-width: 600px) and (max-width: 1199px) {
   .section {
+    margin: 0;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -112,6 +113,7 @@ picture {
     float: left;
   }
   .news {
+    padding: 0;
     display: block;
     width: 100%;
   }
