@@ -18,6 +18,7 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -43,6 +44,12 @@ body {
 @media screen and (min-width: 1200px) {
   .square {
     background-color: #c47;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .container {
+    flex-direction: column;
   }
 }
 
