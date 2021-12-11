@@ -123,10 +123,10 @@ picture {
   .news {
 
     
-  flex-direction: column;
+  
 
   padding: 0.5em;
-    display: flex;
+  
   
     width: 100%;
   }
