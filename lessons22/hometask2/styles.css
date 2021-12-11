@@ -109,12 +109,25 @@ picture {
     flex-wrap:  wrap;
    
   }
- 
+ p {
+   margin: 10px 0;
+ }
     .section {
 
     width: 80%;
     display: flex;
     flex-direction: column;
+  }
+   .units-list {
+    margin: 0;
+  }
+  .news {
+       margin: 10px 0;
+    width: 100vw;
+   height: 15vh;
+  padding: 0.5em;
+    display: block;
+    width: 100%;
   }
 
     /*.news {
@@ -125,16 +138,7 @@ flex-shrink: 1;
     width: 100vw;
     height: 15vh;
   }*/
-   .units-list {
-    margin: 0;
-  }
-  .news {
-    width: 100vw;
-   height: 15vh;
-  padding: 0.5em;
-    display: block;
-    width: 100%;
-  }
+  
 
   /*.section {
     margin: 0;
