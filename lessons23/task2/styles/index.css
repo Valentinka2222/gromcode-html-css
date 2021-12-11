@@ -53,8 +53,7 @@ body {
   }
 }
 
-@media screen and (max-width: 601px) {
-  .container {
+/*@include for-small {
     flex-direction: row;
   }
-}
+}*/
