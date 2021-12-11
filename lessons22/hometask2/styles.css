@@ -109,9 +109,7 @@ picture {
     flex-wrap:  wrap;
    
   }
-    h2{
-  padding: 1em;
-  }
+ 
     .section {
 
     width: 80%;
@@ -121,9 +119,9 @@ picture {
     .news {
  display: flex;
  flex-direction: column;
-
+flex-shrink: 1;
      padding: 0.5em;
-    width: 100%;
+    width: 100vw;
   }
    .units-list {
     margin: 0;
