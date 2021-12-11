@@ -53,7 +53,6 @@ body {
   }
 }
 
-/*@include for-small {
-    flex-direction: row;
-  }
-}*/
+@media screen and (min-width: 591px) and (max-width: 599px) {
+  flex-direction: row;
+}

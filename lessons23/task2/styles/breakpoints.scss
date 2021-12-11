@@ -10,7 +10,7 @@ $xlg: 1200px;
     @content;
   }
 }
-@mixin for-small {
+@mixin for-extra {
   @media screen and (min-width: $xxs) and (max-width: $xs) {
     @content;
   }
