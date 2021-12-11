@@ -54,5 +54,7 @@ body {
 }
 
 @media screen and (min-width: 591px) and (max-width: 599px) {
-  flex-direction: row;
+  .container {
+    flex-direction: row;
+  }
 }

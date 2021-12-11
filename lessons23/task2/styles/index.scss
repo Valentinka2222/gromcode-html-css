@@ -37,10 +37,11 @@ body {
 }
 
 .container {
-  @include for-extra-small {
+  /* @include for-extra-small {
     flex-direction: column;
+  }*/
+
+  @include for-extra {
+    flex-direction: row;
   }
-}
-@include for-extra {
-  flex-direction: row;
 }

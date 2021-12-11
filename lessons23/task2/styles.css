@@ -1,19 +1,58 @@
-/* Error: Declarations may only be used within style rules.
- *    ,
- * 45 |   flex-direction: row;
- *    |   ^^^^^^^^^^^^^^^^^^^
- *    '
- *   styles\index.scss 45:3        @content
- *   styles\breakpoints.scss 15:5  for-extra()
- *   styles\index.scss 44:1        root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Declarations may only be used within style rules.\a    \2577 \a 45 \2502    flex-direction: row;\d\a    \2502    ^^^^^^^^^^^^^^^^^^^\a    \2575 \a   styles\\index.scss 45:3        @content\a   styles\\breakpoints.scss 15:5  for-extra()\a   styles\\index.scss 44:1        root stylesheet";
+* {
+  box-sizing: border-box;
 }
+
+.square {
+  height: 100px;
+  width: 100px;
+  margin: 8px;
+  background-color: #ff7f50;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 599px) {
+  .square {
+    background-color: #ff7f50;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .square {
+    background-color: #8a2be2;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+  .square {
+    background-color: #a61;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .square {
+    background-color: #c47;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .container {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 591px) and (max-width: 599px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
