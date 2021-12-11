@@ -2,7 +2,7 @@ $xs: 599px;
 $s: 600px;
 $mdl: 899px;
 $l: 900px;
-$xxs: 601px;
+$xxs: 650px;
 $lg: 1199px;
 $xlg: 1200px;
 @mixin for-extra-small {
@@ -11,7 +11,7 @@ $xlg: 1200px;
   }
 }
 @mixin for-small {
-  @media screen and (max-width: $xxs) {
+  @media screen and (min-width: $s) and (max-width: $xxs) {
     @content;
   }
 }

@@ -36,7 +36,12 @@ body {
   }
 }
 .container {
-  @include for-medium-up {
+  @include for-small {
+    flex-direction: column;
+  }
+}
+.container {
+  @include for-extra-small {
     flex-direction: column;
   }
 }
