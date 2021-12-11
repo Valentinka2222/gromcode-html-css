@@ -116,17 +116,25 @@ picture {
     display: flex;
     flex-direction: column;
   }
-    .news {
+
+    /*.news {
  display: flex;
  flex-direction: column;
 flex-shrink: 1;
-     padding: 0.5em;
+    
     width: 100vw;
-  }
+    height: 15vh;
+  }*/
    .units-list {
     margin: 0;
   }
-
+  .news {
+    width: 100vw;
+   height: 15vh;
+  padding: 0.5em;
+    display: block;
+    width: 100%;
+  }
 
   /*.section {
     margin: 0;
@@ -142,11 +150,7 @@ flex-shrink: 1;
     width: 20%;
     float: left;
   }
-  .news {
-    padding: 0;
-    display: block;
-    width: 100%;
-  }
+
   .main {
     display: block;
     width: 100%;
