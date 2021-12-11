@@ -39,7 +39,4 @@ body {
   @include for-extra-small {
     flex-direction: column;
   }
-  @include for-medium-up {
-    flex-direction: column;
-  }
 }
