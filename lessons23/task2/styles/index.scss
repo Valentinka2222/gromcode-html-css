@@ -36,7 +36,7 @@ body {
   }
 }
 .container {
-  @include for-extra-small {
+  @include for-small {
     flex-direction: column;
   }
 }

@@ -1,52 +1,18 @@
-* {
-  box-sizing: border-box;
-}
+/* Error: Mixins may not contain mixin declarations.
+ *    ,
+ * 11 |   @mixin for-small {
+ *    |   ^^^^^^^^^^^^^^^^^
+ *    '
+ *   styles\breakpoints.scss 11:3  @import
+ *   styles\index.scss 1:9         root stylesheet */
 
-.square {
-  height: 100px;
-  width: 100px;
-  margin: 8px;
-  background-color: #ff7f50;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Mixins may not contain mixin declarations.\a    \2577 \a 11 \2502    @mixin for-small {\d\a    \2502    ^^^^^^^^^^^^^^^^^\a    \2575 \a   styles\\breakpoints.scss 11:3  @import\a   styles\\index.scss 1:9         root stylesheet";
 }
-
-.container {
-  display: flex;
-  flex-direction: row;
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@media screen and (max-width: 599px) {
-  .square {
-    background-color: #ff7f50;
-  }
-}
-@media screen and (min-width: 600px) and (max-width: 899px) {
-  .square {
-    background-color: #8a2be2;
-  }
-}
-@media screen and (min-width: 900px) and (max-width: 1199px) {
-  .square {
-    background-color: #a61;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .square {
-    background-color: #c47;
-  }
-}
-
-@media screen and (max-width: 599px) {
-  .container {
-    flex-direction: column;
-  }
-}
-
-/*# sourceMappingURL=styles.css.map */
