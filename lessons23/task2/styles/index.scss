@@ -35,11 +35,7 @@ body {
     background-color: #c47;
   }
 }
-.container {
-  @include for-small {
-    flex-direction: column;
-  }
-}
+
 .container {
   @include for-extra-small {
     flex-direction: column;
