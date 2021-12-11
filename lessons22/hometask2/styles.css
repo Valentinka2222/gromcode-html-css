@@ -107,7 +107,7 @@ picture {
   }
     .news {
     padding: 0;
-    display: block;
+
     width: 100%;
   }
      .main{
@@ -123,8 +123,12 @@ picture {
     .news {
  display: flex;
  flex-direction: column;
-
+   margin: 0;
+     padding: 0.5em;
     width: 100%;
+  }
+   .units-list {
+    margin: 0;
   }
 
 
