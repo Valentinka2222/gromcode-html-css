@@ -40,6 +40,6 @@ body {
     flex-direction: column;
   }
   @include for-small {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
