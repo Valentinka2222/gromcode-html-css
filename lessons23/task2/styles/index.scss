@@ -36,10 +36,10 @@ body {
   }
 }
 .container {
-  @include for-extra-small {
+  @include for-medium-up {
     flex-direction: column;
   }
-  @include for-small {
+  /*@include for-small {
     flex-direction: row;
   }
-}
+}*/
