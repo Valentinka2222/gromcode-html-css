@@ -42,6 +42,6 @@ body {
   }*/
 
   @include for-extra {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
