@@ -31,9 +31,10 @@ body {
     background-color: #c47;
   }
 }
-
-.container {
-  @include for-xs {
-    flex-direction: column;
+@media screen {
+  .container {
+    @media (orientation: portrait) {
+      flex-direction: column;
+    }
   }
 }

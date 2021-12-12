@@ -38,3 +38,9 @@ body {
     background-color: #c47;
   }
 }
+
+@media screen and (orientation: portrait) {
+  .container {
+    flex-direction: column;
+  }
+}
