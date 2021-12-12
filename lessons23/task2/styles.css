@@ -49,7 +49,7 @@ body {
     flex-direction: column;
   }*/
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 470px) {
   .container {
     flex-direction: column;
   }
