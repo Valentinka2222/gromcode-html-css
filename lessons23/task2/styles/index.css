@@ -47,11 +47,10 @@ body {
   }
 }
 
-.container {
-  /* @include for-extra-small {
+/*.container {
+  @include for-extra-small {
     flex-direction: column;
   }*/
-}
 
 @media screen and (min-width: 591px) and (max-width: 599px) {
   .container {
