@@ -1,46 +1,18 @@
-* {
-  box-sizing: border-box;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 16 |   @media screen and (min-width: $sm) and (max-width: $mdl-1) {
+ *    |                                                      ^^^^^^
+ *    '
+ *   styles\breakpoints.scss 16:54  for-medium-up()
+ *   styles\index.scss 24:3         root stylesheet */
 
-.square {
-  height: 100px;
-  width: 100px;
-  margin: 8px;
-  background-color: #ff7f50;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 16 \2502    @media screen and (min-width: $sm) and (max-width: $mdl-1) {\d\a    \2502                                                       ^^^^^^\a    \2575 \a   styles\\breakpoints.scss 16:54  for-medium-up()\a   styles\\index.scss 24:3         root stylesheet";
 }
-
-.container {
-  display: flex;
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@media screen and (min-width: 600px) and (max-width: 899px) {
-  .square {
-    background-color: #8a2be2;
-  }
-}
-@media screen and (min-width: 900px) and (max-width: 1199px) {
-  .square {
-    background-color: #a61;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .square {
-    background-color: #c47;
-  }
-}
-
-@media screen and (max-width: 599px) {
-  .container {
-    flex-direction: column;
-  }
-}
-
-/*# sourceMappingURL=styles.css.map */
