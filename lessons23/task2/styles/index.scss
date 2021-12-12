@@ -10,7 +10,6 @@
 }
 .container {
   display: flex;
-  flex-direction: row;
 }
 body {
   width: 100vw;
@@ -37,9 +36,9 @@ body {
 }
 
 .container {
-  /* @include for-extra-small {
-    flex-direction: column;
-  }*/
+  @include for-extra-sml {
+    flex-direction: row;
+  }
 
   @include for-extra {
     flex-direction: column;

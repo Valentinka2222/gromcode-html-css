@@ -11,7 +11,6 @@
 
 .container {
   display: flex;
-  flex-direction: row;
 }
 
 body {
@@ -47,12 +46,13 @@ body {
   }
 }
 
-/*.container {
-  @include for-extra-small {
-    flex-direction: column;
-  }*/
+@media screen and (min-width: 500px) {
+  .container {
+    flex-direction: row;
+  }
+}
 
-@media screen and (min-width: 591px) and (max-width: 599px) {
+@media screen and (max-width: 499px) {
   .container {
     flex-direction: column;
   }
