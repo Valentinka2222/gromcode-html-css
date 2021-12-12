@@ -98,72 +98,33 @@ picture {
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1199px) {
- picture {
-    width: 100%;
-  }
-   .navigation {
-    width: 20%;}
-    
- 
-     .main{
-    flex-wrap:  wrap;
-   
-  }
-
-    .section {
-
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-  }
-   .units-list {
-    margin: 0;
-  }
-  
-  .news {
-
-    
-  
-height: 13%;
-  padding: 0.5em;
-  
-  
-    width: 100%;
-  }
-
-    /*.news {
- display: flex;
- flex-direction: column;
-flex-shrink: 1;
-    
-    width: 100vw;
-    height: 15vh;
-  }*/
-  
-
-  /*.section {
-    margin: 0;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-  }
-
   picture {
     width: 100%;
   }
   .navigation {
     width: 20%;
-    float: left;
   }
 
   .main {
-    display: block;
-    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .section {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
   }
   .units-list {
     margin: 0;
   }
-}*/
+
+  .news {
+    height: 13%;
+    padding: 0.5em;
+
+    width: 100%;
+  }
+}
 
 @media screen and (min-width: 1200px) {
   .section {
