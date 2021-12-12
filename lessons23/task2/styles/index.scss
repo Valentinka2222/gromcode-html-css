@@ -15,15 +15,12 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: row;
+
   align-items: center;
 
   justify-content: center;
 }
 .square {
-  @include for-extra-small {
-    background-color: #ff7f50;
-  }
   @include for-medium-up {
     background-color: #8a2be2;
   }
@@ -36,11 +33,7 @@ body {
 }
 
 .container {
-  @include for-extra-sml {
-    flex-direction: row;
-  }
-
-  @include for-extra {
+  @include for-extra-small {
     flex-direction: column;
   }
 }
