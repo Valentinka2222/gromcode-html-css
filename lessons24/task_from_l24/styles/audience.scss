@@ -128,8 +128,8 @@
     margin: 110px 0;
   }
 
-  &:hover {
-    background-color: $color-blue;
+  &_selected {
+    background-color: $color-dark-blue;
 
     figcaption {
       color: $text-color-white;

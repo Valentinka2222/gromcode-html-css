@@ -1017,10 +1017,10 @@
     margin: 110px 0;
   }
 }
-.user-card:hover {
-  background-color: #0185d0;
+.user-card_selected {
+  background-color: #3141c5;
 }
-.user-card:hover figcaption {
+.user-card_selected figcaption {
   color: #ffffff;
 }
 .user-card__caption {
