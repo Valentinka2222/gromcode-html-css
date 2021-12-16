@@ -968,6 +968,7 @@
   .audience__action__btn:last-child {
     display: flex;
     margin-right: 10px;
+    width: 158px;
   }
 }
 .audience__card {
