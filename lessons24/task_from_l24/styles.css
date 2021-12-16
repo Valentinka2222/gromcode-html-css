@@ -622,6 +622,7 @@
   display: flex;
 }
 .logo__image {
+  margin-left: 130px;
   width: 48px;
   height: 48px;
   margin-right: 13px;
@@ -983,10 +984,10 @@
   }
 }
 .audience__card.user-card {
-  margin-top: 15px;
+  margin-top: 40px;
 }
 .audience__card.user-card:first-child {
-  margin-top: 0;
+  margin-top: 0px;
 }
 @media screen and (min-width: 1400px) {
   .audience__card.user-card {
@@ -997,10 +998,12 @@
 
 .user-card {
   display: flex;
-  margin: 15px 0;
+  flex: 1;
+  margin: 15px;
   padding: 22px;
   flex-direction: column;
   width: 100%;
+  height: 300px;
   justify-content: center;
   align-items: center;
   box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
@@ -1017,10 +1020,10 @@
     margin: 110px 0;
   }
 }
-.user-card_selected {
+.user-card:nth-child(2) {
   background-color: #3141c5;
 }
-.user-card_selected figcaption {
+.user-card:nth-child(2) figcaption {
   color: #ffffff;
 }
 .user-card__caption {
