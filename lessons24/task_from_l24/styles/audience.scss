@@ -127,20 +127,25 @@
   background-blend-mode: overlay, normal;
   cursor: pointer;
 
+  &:nth-child(2) {
+    background-color: $color-dark-blue;
+  }
+
   @include for-large-up {
     flex-direction: row;
     max-height: 300px;
     max-width: 262px;
     margin: 110px 0;
-  }
 
-  &:hover {
-    background-color: $color-dark-blue;
+    &:hover {
+      background-color: $color-dark-blue;
 
-    figcaption {
-      color: $text-color-white;
+      figcaption {
+        color: $text-color-white;
+      }
     }
   }
+
   &__caption {
     margin-top: 22px;
     font-weight: 700;

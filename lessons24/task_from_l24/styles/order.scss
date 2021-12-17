@@ -27,19 +27,21 @@
     }
   }
   &__title {
-    text-align: center;
-
+    margin: 0;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.25px;
     margin-top: 40px;
+    @include for-large-up {
+      margin-top: 26px;
+    }
   }
   &__text {
     font-size: 22px;
-    line-height: 34px;
+    line-height: 32px;
     margin: 0;
-    margin-top: 18px;
+    margin-top: 12px;
   }
   &__form {
     @include for-large-up {
