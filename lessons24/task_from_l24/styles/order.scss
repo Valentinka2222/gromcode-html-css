@@ -1,6 +1,10 @@
 .order {
+  width: 100%;
   padding: 50px 15px;
   background-color: $color-light;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @include for-large-up {
     justify-content: center;
@@ -14,7 +18,9 @@
   }
 
   &__illustration {
+    margin: auto;
     max-width: 200px;
+    max-height: 220px;
 
     @include for-large-up {
       max-width: 269px;
@@ -22,15 +28,17 @@
     }
   }
   &__title {
+    text-align: center;
+    width: 100%;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
-    letter-spacing: -0.357143px;
+    letter-spacing: -0.25px;
     margin-top: 40px;
   }
   &__text {
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 22px;
+    line-height: 32px;
     margin: 0;
     margin-top: 18px;
   }
