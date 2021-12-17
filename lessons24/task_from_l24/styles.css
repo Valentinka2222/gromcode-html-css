@@ -463,6 +463,7 @@
   max-width: 555px;
 }
 .order__illustration {
+  display: block;
   margin: auto;
   max-width: 200px;
   max-height: 220px;
@@ -475,7 +476,6 @@
 }
 .order__title {
   text-align: center;
-  width: 100%;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
