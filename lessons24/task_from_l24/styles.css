@@ -559,11 +559,11 @@
   }
 }
 .header__menu-button {
+  margin-left: auto;
   width: 58px;
   border: none;
   border-left: 1px solid #00000026;
   height: 100%;
-  margin-left: auto;
   background-color: transparent;
 }
 @media screen and (min-width: 1400px) {
@@ -572,6 +572,7 @@
   }
 }
 .header__menu-icon {
+  margin: auto;
   width: 18px;
   display: inline-block;
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
@@ -987,6 +988,7 @@
   margin-top: 40px;
 }
 .audience__card.user-card:first-child {
+  padding-top: 22px;
   margin-top: 0px;
 }
 @media screen and (min-width: 1400px) {
