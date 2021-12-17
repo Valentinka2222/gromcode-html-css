@@ -941,6 +941,7 @@
 }
 .audience__actions {
   margin-top: 30px;
+  margin-right: 15px;
 }
 @media screen and (min-width: 1400px) {
   .audience__actions {
@@ -973,6 +974,7 @@
 }
 .audience__card {
   flex: 1;
+  margin: 0;
   justify-content: center;
   align-items: center;
 }
@@ -1004,7 +1006,6 @@
   margin: 15px;
   padding: 22px;
   flex-direction: column;
-  width: 100%;
   height: 300px;
   justify-content: center;
   align-items: center;
@@ -1018,7 +1019,6 @@
   .user-card {
     flex-direction: row;
     max-height: 300px;
-    max-width: 262px;
     margin: 110px 0;
   }
 }
